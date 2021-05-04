@@ -1,0 +1,99 @@
+div {
+    display: block;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    background-color: #BF2A45;
+    display: block;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #1540BF;
+    color: #D9AB73;
+}
+
+a {
+    padding: 10px;
+    display: inline-block;
+    align-items: flex-end;
+}
+
+.intro {
+    height: 35rem;
+    padding-top: 1rem;
+    background-color: #D9AB73;
+}
+
+.intro h1 {
+    color:black;
+    background-color: #F2387C;
+    font-size: 2rem;
+    margin-top: 10rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.intro p {
+    display: block;
+    margin-block-start: 1.5rem;
+    margin-block-end: 1.5rem;
+    margin: 2rem;
+}
+
+.previous {
+    text-align: center;
+    margin-top: 2rem;
+    background-color: ;
+}
+
+.photo img {
+    width: 30%;
+    padding: 1.5rem;
+}
+
+.find {
+    display: block;
+    text-align: center; 
+}
+
+@media only screen and (max-width: 1048px) {
+    
+    .photo img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+}
+
+@media only screen and (max-width: 640px) {
+    
+    .intro h1 {
+        margin-top: 2rem;
+    } 
+
+    .intro {
+        max-height: 400px;
+    }
+
+    .photo img {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+    nav {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .photo img {
+        width: 80%;
+    }
+}
